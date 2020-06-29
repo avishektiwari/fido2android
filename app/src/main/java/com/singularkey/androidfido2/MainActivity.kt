@@ -34,8 +34,9 @@ import retrofit2.Response
 import org.json.JSONArray
 import org.json.JSONObject
 
-var RP_SERVER_URL = "ADD_YOUR_RP_SERVER_URL_HERE";  //e.g., https://api.singularkey.com
-var RPID = "ADD_YOUR_RPID_HERE"                     // e.g., api.yourcompany.com
+var RP_SERVER_URL = "https://bd505642fe98.ngrok.io";  //e.g., https://api.singularkey.com
+//var RPID = "ADD_YOUR_RPID_HERE"                     // e.g., api.yourcompany.com
+var RPID = "com.singularkey.androidfido2"                     // e.g., api.yourcompany.com
 
 
 private const val BASE64_FLAG = Base64.NO_PADDING or Base64.NO_WRAP or Base64.URL_SAFE
